@@ -2,6 +2,8 @@ a {
     color: black;
     text-decoration: none;
     font-family: sans-serif;
+    font-size: 13.5px;
+    padding-top: 8px;
 }
 
 header {
@@ -13,7 +15,7 @@ a:hover {
 }
 
 .topnav {
-    
+    /* padding-top: 10px; */
 }
 
 .navlink {
@@ -44,4 +46,17 @@ a:hover {
     padding-top: 170px;
     height: 92px;
     width: 272px;
+}
+
+#searchbar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 387px;
+    height: 34px;
+    font-size: 16px;
+}
+
+#searchcontainer {
+    padding-top: 40px;
 }
